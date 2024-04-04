@@ -8,13 +8,6 @@
         *{
             font-family: Arial, sans-serif;
         }
-        #iith_logo{
-            position: relative;
-            top: 5px;
-            width: 50px;
-            height: 50px;
-            left: 20px;
-        }
         h1{
             position: relative;
             left: 20px;
@@ -29,24 +22,45 @@
         }
         .box1{
             /* border: 1px solid black; */
-            padding: 30px;
-            display: flex;
+            /* padding: 30px; */
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            position: relative;
+            justify-content: center;
+            align-items: center;
         }
         
         .box2{
             /* border: 1px solid black; */
-            margin-left: 40px;
-            margin-right: 40px;
+            margin-left: 50px;
+            margin-right: 50px;
             padding: 30px;
             background-color: rgb(244, 239, 239);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            align-items: center;
+            justify-content: center;
         }
         #coe_image-1{
-            height: 60vh;
-            width: 40vw;
+            /* animation: animatezoom 2s; */
+            height: 50vh;
+            width: 45vw;
+            /* padding: 10px; */
+            margin: 10px;
+        }
+        @media screen and (max-width: 1300px){
+            .box1{
+                display: flex;
+                flex-direction: column;
+            }
+            #coe_image-1{
+                height: 40vh;
+                width: 70vw;
+            }
         }
         .description1{
             position: relative;
-            
             display: flex;
             flex-direction: column;
         }
@@ -54,12 +68,10 @@
 </head>
 <body>
     <div class="box2">
-        
         <div class="box1">
             <img id="coe_image-1" src="COE2.jpg" alt="">
             <div class="description1">
-                <h1>Why CoE @ IITH</h1>
-
+                <h1><i>Why CoE @ IITH</i></h1>
                 <h3 class="para-1">In the last couple of decades, tremendous progress has been made in the development of computer hardware and the software that runs.<br><br> 
                 This has led to enormous progress in using this software and computer model to design new products and processes whether it is the design of airplanes, cars, chemical process plants, or new medicines, computer modeling is used at various stages of the development process.<br><br>
                 Keeping this in mind, IIT Hyderabad has started a new interdisciplinary Btech program called COMPUTATIONAL ENGINEERING that will train students in not only using this computer modeling tools but also learn about scientific computing and how to do the data analysis and the various simulation tools using COMPUTATIONAL ENGINEERING. 
