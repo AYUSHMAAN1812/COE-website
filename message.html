@@ -6,8 +6,7 @@
     <title>Why CoE?</title>
     <style>
         *{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+            font-family: Arial, sans-serif;
         }
         #iith_logo{
             position: relative;
@@ -18,8 +17,9 @@
         }
         h1{
             position: relative;
-            left: 80px;
-            bottom: 60px;
+            left: 20px;
+            /* bottom: 60px; */
+            text-align: left;
         }
         h3{
             position: relative;
@@ -27,17 +27,53 @@
             margin-left: 20px;
             text-align: justify;
         }
+        .box1{
+            /* border: 1px solid black; */
+            padding: 30px;
+            display: flex;
+        }
+        
+        .box2{
+            /* border: 1px solid black; */
+            margin-left: 40px;
+            margin-right: 40px;
+            padding: 30px;
+            background-color: rgb(244, 239, 239);
+        }
+        #coe_image-1{
+            height: 60vh;
+            width: 40vw;
+        }
+        .description1{
+            position: relative;
+            
+            display: flex;
+            flex-direction: column;
+        }
     </style>
 </head>
 <body>
-    <img id ="iith_logo"src="iithlogo.png" alt="">
-    <h1>Why COMPUTATIONAL ENGINEERING @IITH</h1>
-    <h3>In the last couple of decades, tremendous progress has been made in the development of computer hardware and the software that runs. This has led to enormous progress in using this software and computer model to design new products and processes whether it is the design of airplanes, cars, chemical process plants, or new medicines, computer modeling is used at various stages of the development process, keeping this in mind, IIT Hyderabad has started a new interdisciplinary Btech program called COMPUTATIONAL ENGINEERING that will train students in not only using this computer modeling tools but also learn about scientific computing and how to do the data analysis and the various simulation tools using COMPUTATIONAL ENGINEERING. 
-        As the name suggests this program deals with computational techniques to teach students studying engineering disciplines, several engineering disciplines require computational techniques specifically that use techniques such as computational fluid dynamics, and finite element methods for which they use high-performance computing specifically. So several of these engineering disciplines require high-performance computing to efficiently solve their problems.
-        It's a future-ready program catering to the industries that span from aerospace, defense, smart manufacturing, and pharmaceuticals, where we are basically at par with Industry 4.0 or the fourth industrial Revolution.This curriculum integrates, FUNDAMENTALS OF SCIENTIFIC COMPUTING, COMPUTATIONAL ALGORITHMS, and DATA STRUCTURES, MACHINE LEARNING, DEEP LEARNING with core Engineering disciplines.
-        In addition to these courses, students will also learn basic mathematics courses, a few science courses, and a few basic engineering courses that will help relate the data generated from these modeling tools to engineering practices. 
-        Therefore, we expect leading companies to employ our students graduating from this program.
-    </h3>
+    <div class="box2">
+        
+        <div class="box1">
+            <img id="coe_image-1" src="COE2.jpg" alt="">
+            <div class="description1">
+                <h1>Why CoE @ IITH</h1>
+
+                <h3 class="para-1">In the last couple of decades, tremendous progress has been made in the development of computer hardware and the software that runs.<br><br> 
+                This has led to enormous progress in using this software and computer model to design new products and processes whether it is the design of airplanes, cars, chemical process plants, or new medicines, computer modeling is used at various stages of the development process.<br><br>
+                Keeping this in mind, IIT Hyderabad has started a new interdisciplinary Btech program called COMPUTATIONAL ENGINEERING that will train students in not only using this computer modeling tools but also learn about scientific computing and how to do the data analysis and the various simulation tools using COMPUTATIONAL ENGINEERING. 
+                </h3>
+            </div>
+        </div>
+        <div class="description2">
+
+            <h3>As the name suggests this program deals with computational techniques to teach students studying engineering disciplines, several engineering disciplines require computational techniques specifically that use techniques such as computational fluid dynamics, and finite element methods for which they use high-performance computing specifically. So several of these engineering disciplines require high-performance computing to efficiently solve their problems.<br><br>
+                It's a future-ready program catering to the industries that span from aerospace, defense, smart manufacturing, and pharmaceuticals, where we are basically at par with Industry 4.0 or the fourth industrial Revolution.<br><br>This curriculum integrates FUNDAMENTALS OF SCIENTIFIC COMPUTING, COMPUTATIONAL ALGORITHMS, and DATA STRUCTURES, MACHINE LEARNING, DEEP LEARNING with core Engineering disciplines.<br><br>
+                In addition to these courses, students will also learn basic mathematics courses, a few science courses, and a few basic engineering courses that will help relate the data generated from these modeling tools to engineering practices. <br><br>
+                Therefore, we expect leading companies to employ our students graduating from this program.</h3>
+            </div>
+    </div>
 
 </body>
 </html>
