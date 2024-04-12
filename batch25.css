@@ -67,7 +67,7 @@ body{
   i.fa-youtube{color: #eb1c14}
   i.fa-linkedin{color: #0077B5}
   
-  /* .back-face{
+  .back-face{
     transform: perspective(800px) rotateY(-180deg);
   }
   .front-face{
@@ -78,8 +78,4 @@ body{
   }
   .container:hover > .front-face{
     transform: perspective(800px) rotateY(180deg);
-  } */
-.front-face:hover{
-  filter: opacity(10%);
-}
-  
+  }
