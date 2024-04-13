@@ -5,8 +5,8 @@ body{
   }
   .outercontainer{
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      gap: 40px 20px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      gap: 40px 15px;
   }
   .title{
       text-align: center;
@@ -21,7 +21,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100px;
-    width: 300px;
+    width: 250px;
     text-align: center;
     border-radius: 5px;
   }
@@ -40,6 +40,7 @@ body{
   }
   section{
     position: relative;
+    margin: 30px;
   }
   .name{
     font-size: 20px;
